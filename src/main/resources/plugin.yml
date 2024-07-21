@@ -1,0 +1,14 @@
+name: TeleportGate
+version: 0.2
+main: com.gate.GatePlugin
+api-version: 1.20
+description: A plugin to handle teleport gates with random destinations.
+commands:
+  gate:
+    description: Manage teleport gates
+    usage: /gate <new | set | edit | delete | disable | enable | chance | equal | reload | info>
+    permission: teleportgate.admin
+permissions:
+  teleportgate.admin:
+    description: Allows setting gate names and locations
+    default: op
